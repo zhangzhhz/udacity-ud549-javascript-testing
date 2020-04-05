@@ -4,11 +4,30 @@
   "description": "Codes for Udacity course Javascript Testing (ud549), but using Jest instead of Jasmine.",
   "main": "index.js",
   "devDependencies": {
+    "@babel/preset-env": "^7.9.0",
     "jest": "^25.2.7"
   },
+  "type": "module",
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": true,
+            "esmodules": true
+          },
+          "modules": "commonjs"
+        }
+      ]
+    ]
+  },
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
 }
