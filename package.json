@@ -1,0 +1,14 @@
+{
+  "name": "udacity-javascript-testing",
+  "version": "1.0.0",
+  "description": "Codes for Udacity course Javascript Testing (ud549), but using Jest instead of Jasmine.",
+  "main": "index.js",
+  "devDependencies": {
+    "jest": "^25.2.7"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
