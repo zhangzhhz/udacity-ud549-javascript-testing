@@ -55,8 +55,8 @@ class AddressBook {
 module.exports = AddressBook;
 // export default AddressBook;
 
-let addressBook = new AddressBook();
-let contact = new Contact();
-addressBook.addContact(contact);
-console.log(addressBook.getContact(0));
+//let addressBook = new AddressBook();
+//let contact = new Contact();
+//addressBook.addContact(contact);
+//console.log(addressBook.getContact(0));
 
